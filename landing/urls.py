@@ -1,7 +1,7 @@
 from django.conf.urls import url, include
 from django.contrib import admin
-from .views import vfunc
+from .views import landing
 
 urlpatterns = [
-    url(r'^$', vfunc, name='main')
+    url(r'^$', landing, name='main')
 ]

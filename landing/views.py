@@ -3,5 +3,5 @@ from django.http import HttpResponse
 
 # Create your views here.
 
-def vfunc(request):
-    return HttpResponse('<h1>Privet</h1>')
+def landing(request):
+    return render(request, 'landing.html')
